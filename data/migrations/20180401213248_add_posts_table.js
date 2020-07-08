@@ -5,7 +5,7 @@ exports.up = function(knex) {
     posts.string('title', 1024).notNullable();
     posts.text('contents').notNullable();
 
-    posts.timestamps(true, true);
+    posts.timestamps (true, true);
   });
 };
 
